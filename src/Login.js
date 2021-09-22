@@ -57,8 +57,8 @@ const Login = ({ history }) => {
                 <Box className={classes.paper}>
                     <h1>Log in</h1>
                     <form  className={classes.form} onSubmit={handleLogin}> 
-                        <TextField variant="outlined" fullWidth margin="normal" type="email" id="email" label="Email" required name="email" autoComplete="email" autoFocus/>
-                        <TextField variant="outlined" fullWidth margin="normal" type="password" id="password" label="Password" required name="password" autoComplete="password" autoFocus/>
+                        <TextField variant="outlined" fullWidth margin="normal" type="email" id="email" label="Email" required name="email" autoComplete="email"/>
+                        <TextField variant="outlined" fullWidth margin="normal" type="password" id="password" label="Password" required name="password" autoComplete="password"/>
                         <Button type="submit" size="large" fullWidth color="primary" variant="contained" className={classes.submit}>Log in</Button>
                         <FormControlLabel control={<Checkbox value="remember" color="primary" />} label="Remember me" />
                         <Grid container>

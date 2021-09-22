@@ -54,8 +54,8 @@ const SignUp = ({ history }) => {
                 <div className={classes.paper}>
                     <h1>Sign up</h1>
                     <form  className={classes.form} onSubmit={handleSignUp}> 
-                        <TextField variant="outlined" color="secondary" fullWidth margin="normal" type="email" id="email" label="Email" required name="email" autoComplete="email" autoFocus/>
-                        <TextField variant="outlined" color="secondary" fullWidth margin="normal" type="password" id="password" label="Password" required name="password" autoComplete="password" autoFocus/>
+                        <TextField variant="outlined" color="secondary" fullWidth margin="normal" type="email" id="email" label="Email" required name="email" autoComplete="email"/>
+                        <TextField variant="outlined" color="secondary" fullWidth margin="normal" type="password" id="password" label="Password" required name="password" autoComplete="password"/>
                         <Button type="submit" size="large" fullWidth color="primary" variant="contained" className={classes.submit}>Sign up</Button>
                         <FormControlLabel control={<Checkbox value="remember" color="primary" />} label="Remember me" />
                         <Grid container>
